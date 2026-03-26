@@ -93,6 +93,7 @@ int main()
     Circle circle4(circle2);
     cout << "Radius: " << circle4.getRadius() << endl;
 
+    //cout << Circle::getCount() << "°³\n";
     cout << Circle::getCount() << "°³\n";
 
     return 0;
