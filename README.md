@@ -1,0 +1,25 @@
+7.1 class definiton -> memeber functions definition -> application
+7.2 creation -> initialization -> operations -> cleaning up -> recycling
+    [        constructor          ]                     [          destructor         ]
+7.3 parameter constructor / default costructor / copy constructor
+7.4 java inline방식 class안에 선언 (inline을 쓰는 경우는 코드가 짧던가 반복되야됨)
+inline명시시 scope연산자가 사용됨 inline명시 x일시 scope없이 그냥 class선언
+
+복사생성자 : getradius 와 radius 중에 get은 함수를 전체 참조 radius는 값만 참조 전자는 public 후자는 protected방식 
+
+소멸순서 : 
+
+static code stack heap 
+중에 stack 은 지역변수 static은 전역변수가 저장된다 물리적으로 저장되는 공간의 위치가 다름
+전역변수는 프로그램이 종료될시에만 소멸됨 
+
+
+5주차 heap
+메모리 번지주소는 포인터 변수만 받을 수 있다 
+
+new 한번에 delete[] 한번씩
+
+컴파일시점에는 stack static 런타임은 heap
+stack은 블록이 종료 
+static은 프로그램이 종료
+heap은 delete <----- f5는 os가 개입
